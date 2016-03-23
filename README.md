@@ -1,7 +1,7 @@
 MongoDB ReplicaSet Dockerfile
 =============================
 
-A Dockerfile and config for launching a MongoDB contatiner with 3 mongo processes that act as a ReplicaSet. There are config files for each mongo instance that are copied to the container. The shell script handles creation of the data directories and starting mongo.
+A Dockerfile and config for launching a MongoDB 3.2 contatiner with 3 mongo processes that act as a ReplicaSet. There are config files for each mongo instance that are copied to the container. The shell script handles creation of the data directories and starting mongo.
 
 ### Notes
 
@@ -9,7 +9,7 @@ It's probably not a good idea to run this setup in production as each mongo inst
 
 ### Base Docker Image
 
-* [dockerfile/ubuntu](http://dockerfile.github.io/#/ubuntu)
+* mongo:3.2
 
 
 ### Installation
