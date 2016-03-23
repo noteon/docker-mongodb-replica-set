@@ -23,7 +23,7 @@ Refer to [Dockerfile MongoDB](https://github.com/dockerfile/mongodb) for usage n
 
 #### Create container from image and open ports for ReplicaSet
 
-    docker run -itd -p 27017:27017 -p 27018:27018 -p 27019:27019 --name mongodb inlight/mongodb-replica-set
+    docker run -itd -p 37017:27017 -p 37018:27018 -p 37019:27019 --name mongors noteon/mongors
 
 #### Initiate ReplicaSet
 
